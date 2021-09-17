@@ -1,0 +1,90 @@
+html {
+	position: relative;
+}
+
+
+body {
+	margin-top: 60px;
+	margin-bottom: 80px;
+	background-color: #eaeaea;
+	background-image: url('img/email-pattern.png');
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+.hero-img img {
+	width: 900px;
+	height: 600px;
+}
+
+.mlbb {
+	min-height: 700px;
+	background-image: url('img/mlbb.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.row {
+	margin-top: 30px;
+}
+
+hr {
+	width: 250px;
+	border-top: 3px solid #999;
+}
+
+.foto {
+	min-height: 800px;
+}
+
+.foto img {
+	width: 250px;
+	height: 250px;
+	margin: 10px;
+}
+
+main {
+	min-height: 700px;
+}
+
+main p {
+	text-align: justify;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	padding: 25px;
+	bottom: 0;
+	background-color: #333;
+}
+
+footer p {
+	color: #aaa;
+	font-size: 1.2em;
+}
+
+footer svg {
+	color: salmon;
+}
+
+
+/*Pengaturan Navbar - Stackoverflow*/
+
+.navbar-nav {
+    flex-direction: row;
+}
+    
+.nav-link {
+   	padding-right: .5rem !important;
+    padding-left: .5rem !important;
+}
+    
+    /* Fixes dropdown menus placed on the right side */
+.ml-auto .dropdown-menu {
+    left: auto !important;
+     right: 0px;
+}
